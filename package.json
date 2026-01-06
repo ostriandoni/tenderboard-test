@@ -1,0 +1,26 @@
+{
+  "name": "phonetic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx ts-node main.ts",
+    "build": "tsc main.ts --target es2015",
+    "test": "node --experimental-vm-modules $(yarn bin jest)"
+  },
+  "keywords": [
+    "tenderboard",
+    "case-study",
+    "quiz"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
