@@ -14,19 +14,19 @@ Dalton and Wapol started working at 9 am after registration closed. They will ca
 ### Task
 Create a small CLI app that simulates the process on Phonetic's first service center. The app should be:
 
-1. Can be run. [done]
-2. Simulate the waiting time each time Dalton and Wapol work. 20 minutes becomes 25 seconds for Wapol and 10 minutes becomes 15 seconds for Dalton. [done]
-3. Customers in the queue are 10 customers. Each of them has a different phone series (you can create a randomizer function). [done]
-4. Process transition should be printed on the terminal. [done]
-5. All processes on that day (technician repair who and what phone series) must be printed on the end of the app. [done]
-6. Use available codes, you can modify available classes (add/change method or attribute is okay). [done]
-7. Use recursion is mandatory [done]
-8. Write unit test for the functions. Unit test can be run by using `yarn test`.
-9. The code is typescript code. So, using type is better than `any`. [done]
+1. Can be run. :white_check_mark:
+2. Simulate the waiting time each time Dalton and Wapol work. 20 minutes becomes 25 seconds for Wapol and 10 minutes becomes 15 seconds for Dalton. :white_check_mark:
+3. Customers in the queue are 10 customers. Each of them has a different phone series (you can create a randomizer function). :white_check_mark:
+4. Process transition should be printed on the terminal. :white_check_mark:
+5. All processes on that day (technician repair who and what phone series) must be printed on the end of the app. :white_check_mark:
+6. Use available codes, you can modify available classes (add/change method or attribute is okay). :white_check_mark:
+7. Use recursion is mandatory :white_check_mark:
+8. Write unit test for the functions. Unit test can be run by using `yarn test`. :white_check_mark:
+9. The code is typescript code. So, using type is better than `any`. :white_check_mark:
 
 
 ##### Additional
-Please use `yarn build` to build typescript file and `yarn start` to run it. [done]
+Please use `yarn build` to build typescript file and `yarn start` to run it. :white_check_mark:
 
 Also, see files on the example folder for more informations (expected results).
 
